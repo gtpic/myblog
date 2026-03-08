@@ -609,12 +609,9 @@ textarea {
 }
 
 .friend-links .links-container {
-    text-align: left; 
-    font-size: 0; 
+    text-align: left; /* 水平靠左对齐 */
+    font-size: 0; /* 消除inline-block元素间的间隙 */
     padding: 10px 0;
-    display: flex;        
-    flex-wrap: wrap;      
-    align-items: center;  
 }
 
 .friend-links .link-item {
